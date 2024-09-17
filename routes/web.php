@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Htpp\Controllers\CategoriaCrontoller;
+use App\Http\Controllers\CategoriaController;
 
 Route::get('/', function () {
     return view('welcome');
